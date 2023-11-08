@@ -1,0 +1,28 @@
+body{
+
+    height: 1000px;
+    width: 1900px;
+    background-color: #2f2f2f;
+    display: grid;
+    grid-area: "a1"
+                "a2";
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 3px;
+}
+
+.para1{
+    grid-area: "a1";
+    display: flex;
+    background-color: #4f4f4f;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.para2{
+    grid-area: "a2";
+    display: flex;
+    background-color: #4f4f4f;
+    text-align: center;
+    border-radius: 10px;
+}

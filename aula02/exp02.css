@@ -1,0 +1,26 @@
+h1{
+    background-color: aliceblue;
+}
+
+p{
+    background-color: aqua;
+}
+
+#p2{
+    background-color: aquamarine;
+}
+
+h2{
+    background-color: azure;
+}
+
+.stilo{
+    background-color: blue;
+    color: aliceblue;
+    height: 200px;
+    width: 300px;
+}
+
+body{
+    background-color: #2f2f2f;
+}

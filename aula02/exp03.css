@@ -1,0 +1,25 @@
+#d01 {
+    background-color: black;
+    width: 1fr;
+    height: 100px;
+}
+
+#d02 {
+    background-color: red;
+    width: 1fr;
+    height: 100px;
+}
+
+#d03 {
+    
+    background-color: yellow;
+    width: 1fr;
+    height: 100px;
+}
+
+#d04 {
+    margin-top: 50px;
+    background-color: green;
+    width: 700px;
+    height: 100px;
+}

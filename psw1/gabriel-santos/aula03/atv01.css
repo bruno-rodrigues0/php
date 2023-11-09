@@ -14,7 +14,7 @@ div div {
 }
 
 #div2 {
-    background-color: crimson;
+    background-color: rgb(219, 20, 60);
     height: 250px;
 }
 
@@ -30,7 +30,7 @@ div div {
 
 
 .teste {
-    color: black;
+    color: rgb(0, 0, 0);
     font-size: 50px;
     align-items: center;
     display: flex;

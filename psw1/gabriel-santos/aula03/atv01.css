@@ -4,12 +4,13 @@
 }
 
 div div {
-    border: 2px solid black;
+    border: 2px solid rgb(243, 239, 239);
     display: flex;
     margin: 0 auto;
     height: 150px;
     width: 300px;
-    align-items: center
+    align-items: center;
+    border-radius: 30px;
 }
 
 #div2 {

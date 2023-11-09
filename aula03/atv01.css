@@ -35,3 +35,7 @@ div div{
     font-size: large;
     text-align: center;
 }
+
+p{
+    padding-top: 15px;
+}

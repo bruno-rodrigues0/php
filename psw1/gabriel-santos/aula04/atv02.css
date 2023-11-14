@@ -2,25 +2,28 @@
     margin: 0px;
 }
 
-#fora{
+#fora {
     height: 1000px;
-
     background-color: yellow;
+    
 }
 
 #header {
     background-color: rgb(255, 255, 0, 0.5);
     height: 100px;
     border-bottom: 2px solid black;
-    background-image: url(pcframe.png);
+    background-image: url(images/pcframe.png);
     background-size: 90px 70px;
     background-repeat: no-repeat;
-    background-position: 1700px 10px;
+    background-position: 1700px 40px;
+    padding-top: 50px;
+
 }
 
-#aab h1 {
-
-    padding-left: 40px;
-    padding-top: 35px;
+h1{
+    border: 3px solid black;
+    width: 200px;
+    margin: 0 100px;
+    text-align: center;
 
 }

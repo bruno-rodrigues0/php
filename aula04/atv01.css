@@ -1,0 +1,4 @@
+body{
+    width: 1fr; height: 200vh;
+    background: #ffffff url("img01.jpg") repeat-x center scroll;
+}

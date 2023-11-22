@@ -1,0 +1,34 @@
+*{
+    margin: 0;
+}
+
+.container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 10vh 88.4vh;
+    gap: 5px;
+    background-color: black;
+    padding: 5px;
+}
+
+div > div{
+    background-color: aqua;
+}
+
+.header{
+    grid-column: 1/3;
+    text-align: center;
+}
+
+.bg-color{
+    border-radius: 16px;
+    background-color: #1a1a1f;
+}
+
+h1{
+    color: aliceblue;
+    font-weight: 1000;
+    font-size: 24px;
+    font-family: Arial;
+    margin-top: 3vh;
+}

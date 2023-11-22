@@ -28,6 +28,13 @@ body {
 
 }
 
+.menuL .box1 {
+
+
+    background-color: pink;
+
+}
+
 .conteudo {
 
     grid-area: conteudo;
@@ -45,4 +52,5 @@ body {
 
     grid-area: rodape;
     background-color: #0C0910;
+    color: white;
 }

@@ -1,5 +1,4 @@
 * {
-
     margin: 0;
 }
 
@@ -7,45 +6,52 @@
 .item1 {
     grid-area: header;
     background-color: rgb(170, 213, 230);
+    padding-top: 30px;
+    padding-right: 50px;
 }
 
 .item2 {
     grid-area: menu;
-    background-color: rgb(143, 63, 230);
+    background-color: rgb(138, 43, 226);
     color: white;
+    padding-top: 200px;
 }
 
 .item3 {
-    grid-area: menu2;
-    background-color: #ffe5c2;
+    grid-area: Ad2;
+    background-color: rgb(255, 228, 196);
+    padding-top: 100px;
+
 }
 
 .item4 {
     grid-area: main;
     width: 100%;
-    background-color: rgb(138, 223, 142);
+    background-color: rgb(144, 238, 144);
 }
 
 .item5 {
-    grid-area: right;
-    background-color: rgb(175, 55, 39);
-
+    grid-area: Ad1;
+    background-color: rgb(165, 42, 42);
+    padding-top: 300px;
+    color: white;
 }
 
 .item6 {
     grid-area: footer;
-    background-color: rgb(255, 167, 121);
+    background-color: rgb(255, 160, 122);
+    padding-top: 50px;
 }
 
 .grid-container {
     display: grid;
     grid-template-areas:
         'header header header'
-        'menu main right'
-        'menu2 main right'
+        'menu main Ad1'
+        'Ad2 main Ad1'
         'footer footer footer';
 
-    grid-template-columns: 200px 1000px auto;
+    grid-template-columns: 200px 1400px auto;
     grid-template-rows: 100px 500px auto;
     gap: 10px;
     height: 1000px;
@@ -54,4 +60,11 @@
 .grid-container>div {
     text-align: center;
     font-size: 30px;
+}
+
+img {
+
+    margin: 20px 0;
+    height: 200px;
+    width: 200px;
 }

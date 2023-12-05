@@ -11,7 +11,7 @@ body {
 
 .box {
     display: grid;
-    grid-template-columns: 200px 400px;
+    grid-template-columns: 200px 600px;
     grid-template-rows: 400px;
     background-color: #212529;
     border-radius: 10px;
@@ -44,6 +44,13 @@ h1 {
 
 }
 
+#rep {
+    padding-top: 10px;
+    font-size: 40px;
+    font-family: 'Open Sans', sans-serif;
+
+}
+
 .repo {
     margin: 10px 100px;
     color: white;
@@ -53,16 +60,23 @@ h1 {
 }
 
 li {
-    padding-top: 10px;
-
+    padding-top: 25px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: large;
 }
+
+li:hover {
+
+    color: #6C757D;
+}
+
 a {
 
     text-decoration: none;
-    color: inherit; 
+    color: inherit;
 }
 
 link:visited {
     text-decoration: none;
-    color: inherit;
+    color: #E9ECEF;
 }

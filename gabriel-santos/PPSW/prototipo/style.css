@@ -4,7 +4,7 @@
 
 body {
 
-    background-image: linear-gradient(180deg, #343A40, #212529);
+    background-image: linear-gradient(180deg, #343A40 50%, #212529);
     background-attachment: fixed;
 
 }
@@ -12,7 +12,7 @@ body {
 .box {
     display: grid;
     grid-template-columns: 200px 600px;
-    grid-template-rows: 400px;
+    grid-template-rows: 250px 100px;
     background-color: #212529;
     border-radius: 10px;
     margin: 250px 400px;
@@ -59,6 +59,12 @@ h1 {
 
 }
 
+#socials {
+
+    text-align: left;
+    font-size: 40px;
+}
+
 li {
     padding-top: 25px;
     font-family: 'Open Sans', sans-serif;
@@ -79,4 +85,25 @@ a {
 link:visited {
     text-decoration: underline;
     color: #E9ECEF;
+}
+
+.socials {
+
+    grid-column: 1/3;
+
+
+}
+
+.socials #insta {
+
+
+    text-align: center;
+    margin: 10px 300px;
+    padding-top: 10px;
+    font-size: 25px;
+    border: 2px solid black;
+    border-radius: 10px;
+    height: 40px;
+    background-image: linear-gradient(225deg, #0D42E0 5%, #CF32B3, #FF1B9C, #FF4443, #FF7D01, #FFCC56 95%);
+
 }

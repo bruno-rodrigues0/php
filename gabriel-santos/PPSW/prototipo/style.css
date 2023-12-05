@@ -1,0 +1,68 @@
+* {
+    margin: 0;
+}
+
+body {
+
+    background-image: linear-gradient(180deg, #343A40, #212529);
+    background-attachment: fixed;
+
+}
+
+.box {
+    display: grid;
+    grid-template-columns: 200px 400px;
+    grid-template-rows: 400px;
+    background-color: #212529;
+    border-radius: 10px;
+    margin: 250px 400px;
+    box-shadow: 1px 1px 10px #adb5bd31;
+
+}
+
+#avatar {
+
+    height: 200px;
+    width: 200px;
+    border-radius: 100%;
+    margin-top: 80px;
+    margin-left: 50px;
+
+}
+
+.perfil {
+
+    color: #F8F9FA;
+    text-align: right;
+
+}
+
+h1 {
+    padding-top: 10px;
+    font-size: 30px;
+    font-family: 'Open Sans', sans-serif;
+
+}
+
+.repo {
+    margin: 10px 100px;
+    color: white;
+    text-align: justify;
+
+
+}
+
+li {
+    padding-top: 10px;
+
+}
+a {
+
+    text-decoration: none;
+    color: inherit; 
+}
+
+link:visited {
+    text-decoration: none;
+    color: inherit;
+}

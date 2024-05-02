@@ -1,6 +1,7 @@
 <?php
 
 require_once('./class/aluno.php');
+require_once('./class/professor.php');
 
 $var = array("opa", 2, 3, 4);
 
@@ -25,9 +26,12 @@ foreach ($var2 as $teste1) {
     echo "<p style=\"background-color:rgb($r,$g,$b);\">$teste1</p>";
 };
 
-$aluno1 = new Aluno('Gabriel', 17, "Rua Oscar Alho, 234", "Guanambi", "BA", "000.000.000-01");
-$aluno2 = new Aluno('Bruno', 17, "Rua Oscar Alho, 600", "Montalvânia", "MG", "000.000.000-02");
+$aluno[] = new Aluno('Gabriel', 17, "Rua Oscar Alho, 234", "Guanambi", "BA", "000.000.000-01");
+$aluno[] = new Aluno('Bruno', 17, "Rua Oscar Alho, 600", "Montalvânia", "MG", "000.000.000-02");
+$professor = new Professor("Fabio", 30, "Rua Lima Mei 420", "Guanambi", "BA", "000.000.000-69");
 
-$aluno1 -> getInfo();
-echo "<br>";
-$aluno2 -> getInfo();
+for ($i = 0; $i < sizeof($aluno); $i++) {
+    $aluno[$i]->getInfo();
+    echo "<br>";
+}
+$professor->getInfo();

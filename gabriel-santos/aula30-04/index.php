@@ -23,7 +23,7 @@ foreach ($var2 as $teste1) {
     $r = random_int(0, 255);
     $g = random_int(0, 255);
     $b = random_int(0, 255);
-    echo "<p style=\"background-color:rgb($r,$g,$b);\">$teste1</p>";
+    echo "<p style=\"background-color:rgb($r,$g,$b);\">$teste1 ❤️</p>";
 };
 
 $aluno[] = new Aluno('Gabriel', 17, "Rua Oscar Alho, 234", "Guanambi", "BA", "000.000.000-01");
